@@ -129,3 +129,4 @@ inline bool base_matrix<T>::equal_in_size(const base_matrix& other) const
 {
     return this->rows() == other.rows() && this->cols() == other.cols();
 }
+
